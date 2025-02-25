@@ -1,5 +1,6 @@
 from typing import List
 
+# Concept : array
 def removeElement(nums: List[int], val: int) -> int:
     tempList = [99] * len(nums)
     idx = 0
