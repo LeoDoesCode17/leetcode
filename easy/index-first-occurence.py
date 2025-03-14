@@ -18,15 +18,15 @@ def solve(haystack, needle):
     return -1
 
 class TestClass(unittest.TestCase):
-    def first_test(self):
+    def test_first(self):
         result = solve("sadbutsad", "sad")
         expected = 0
         self.assertEqual(result, expected)
-    def second_test(self):
+    def test_second(self):
         result = solve("leetcode", "leeto")
         expected = -1
         self.assertEqual(result, expected)
-    def third_test(self):
+    def test_third(self):
         result = solve("mississippi", "issip")
         expected = 4
         self.assertEqual(result, expected)
